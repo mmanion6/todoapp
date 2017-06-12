@@ -5,3 +5,5 @@ name: <%= @todo.name %>
 <p>
 description: <%= @todo.description %>
 </p>
+<%= link_to "Edit a this entry", edit_todo_path(@todo) %> |
+<%= link_to "List all todos", todos_path %>
